@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+}
+
+#container {
+    width: 70%;
+    background-color: rgb(232, 232, 233);
+    margin: auto;
+    border-radius: 8px;
+    padding: 16px;
+    padding-bottom: 60px;
+}
+
+div {
+
+    header {
+        background-color: rgb(2, 126, 126);
+        color: white;
+        display: block;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 2px;
+        border-radius: 30px 30px 0 0;
+    }
+
+    h1 {
+        font-size: 60px;
+        text-shadow: black 3px 3px 3px;
+        font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover {
+        background-color: rgb(238, 229, 98);
+        color: black;
+    }
+    ul {
+        list-style-position: inside;
+        margin: 0;
+        padding: 0;
+    }
+
+    ul li {
+        list-style-type: square;
+        padding: 5px;
+    }
+
+
+    h3 {
+        background-color: rgb(3, 126, 126);
+        color: white;
+        padding: 5px;
+        border-radius: 4px;
+    }
+}
+
+footer {
+    background-color: rgb(2, 126, 126);
+    color: white;
+    display: block;
+    margin: auto;
+    padding-bottom: 2px;
+    padding: 2px;
+    border-radius: 0 0 30px 30px;
+    text-align: center;
+    width: 70%;
+}
+
+footer a {
+    color: rgb(243, 203, 130);
+}
+
+footer a:hover {
+    color: rgb(255, 251, 0);
+}
